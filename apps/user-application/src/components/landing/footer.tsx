@@ -1,4 +1,5 @@
-import { Github, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { FaXTwitter, FaGithub } from "react-icons/fa6";
 
 const navigation = {
   main: [
@@ -16,8 +17,13 @@ const navigation = {
   social: [
     {
       name: "GitHub",
-      href: "https://github.com/tanstack",
-      icon: Github,
+      href: "https://github.com/backpine/saas-kit",
+      icon: FaGithub,
+    },
+    {
+      name: "X",
+      href: "https://x.com/backpinelabs",
+      icon: FaXTwitter,
     },
   ],
 };
@@ -94,7 +100,7 @@ export function Footer() {
               Built with TanStack Start
             </p>
             <p className="text-xs text-muted-foreground mt-1">
-              &copy; {new Date().getFullYear()} TanStack. MIT Licensed.
+              &copy; {new Date().getFullYear()} Backpine SaaS Kit. MIT Licensed.
             </p>
           </div>
         </div>
