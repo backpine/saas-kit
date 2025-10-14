@@ -1,4 +1,4 @@
-// packages/data-ops/database/setup.ts
+// packages/data-ops/src/database/setup.ts
 import { drizzle } from "drizzle-orm/planetscale-serverless";
 
 let db: ReturnType<typeof drizzle>;
