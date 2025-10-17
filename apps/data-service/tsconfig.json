@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noUncheckedIndexedAccess": true,
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
